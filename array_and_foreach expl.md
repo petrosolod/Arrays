@@ -65,3 +65,5 @@ int[] inventory = [
         Console.WriteLine($"show me magic: {item}");
     }
 Console.WriteLine($"Цикл пройшов {sum} ітерацій");
+
+hm...
