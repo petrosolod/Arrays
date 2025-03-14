@@ -42,16 +42,26 @@
 // використовуючи тимчасову змінну, яку ви вказуєте в операторі foreach (у цьому випадку name).
 // Це дозволяє вам виконувати дії з кожним елементом масиву, не вказуючи індекси.
 
-int sum  = 0;
-int[] inventory = [
-    50,100,150,200,250,300
-    ];
-    foreach (int item in inventory) {
-
-        if ( item > 10){
-            sum += 1;
-            // Подивимось скількі ітерацій пройде цикл
+    int sum  = 0;
+    int[] inventory = [
+        50,100,150,200,250,300
+        ];
+        foreach (int item in inventory) {
+    
+            if ( item > 10){
+                sum += 1;
+                // Подивимось скількі ітерацій пройде цикл
+            }
+    
+            else if (item == 400) {
+                Console.WriteLine($"Item found! That's {item}");
+                break; 
+                // Ця задумка з оператором if і break просто мій спосіб показати, 
+                // що можна використовувати ці оператори в циклах
+            }
+            Console.WriteLine($"show me magic: {item}");
         }
+    Console.WriteLine($"Цикл пройшов {sum} ітерацій");
 
         else if (item == 400) {
             Console.WriteLine($"Item found! That's {item}");
@@ -60,7 +70,25 @@ int[] inventory = [
             // що можна використовувати ці оператори в циклах
         }
         Console.WriteLine($"show me magic: {item}");
-    }
+           
 Console.WriteLine($"Цикл пройшов {sum} ітерацій");
 
 hm...
+
+string[] fraudsLetters =
+{
+    "B123", "C234", "A345","C15",
+    "B177", "G3003", "C235", "B179",
+    };
+    foreach (string fraud in fraudsLetters)
+    {
+        if (fraud.StartsWith("B"))
+        {
+         Console.WriteLine(fraud);
+        }
+    }
+
+string greet = "Hello World!";
+Console.WriteLine(greet);
+ // ЦЕ невелике завдання яке пійшло з microsoft learn
+ // шукаємо в масиві всі значення які починаються з літери 'B'
