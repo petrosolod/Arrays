@@ -1,3 +1,5 @@
+# Array and Foreach Example
+
     string[] fraudulentOrderIDss = new string[3];
     
     fraudulentOrderIDss[0] = "A123";
@@ -31,7 +33,7 @@
 // то масив буде містити тільки вказані елементи
 
 // Далі у нас буде ітерація за допомогою циклу foreach (зрозуміти б це скоріше)
-    
+
     string[] names = { "Rowena", "Robin", "Bao" };
     foreach (string name in names)
     {
