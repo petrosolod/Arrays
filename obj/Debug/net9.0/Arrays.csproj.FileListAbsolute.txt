@@ -12,3 +12,4 @@ C:\Users\jaike\Desktop\C Sharp Microsoft Learn Course\Arrays\obj\Debug\net9.0\re
 C:\Users\jaike\Desktop\C Sharp Microsoft Learn Course\Arrays\obj\Debug\net9.0\Arrays.pdb
 C:\Users\jaike\Desktop\C Sharp Microsoft Learn Course\Arrays\obj\Debug\net9.0\Arrays.genruntimeconfig.cache
 C:\Users\jaike\Desktop\C Sharp Microsoft Learn Course\Arrays\obj\Debug\net9.0\ref\Arrays.dll
+C:\Users\jaike\Desktop\C Sharp Microsoft Learn Course\Arrays\obj\Debug\net9.0\Arrays.sourcelink.json
